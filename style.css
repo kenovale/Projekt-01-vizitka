@@ -1,3 +1,68 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color:white;
+    background: rgb(50,98,115); 
+    background: linear-gradient(0deg, rgba(50,98,115,1) 30%, rgba(92,158,173,1) 100%);
+    margin: 0px;
+    padding: 0px;
+}
+
+.card {
+    background-color: rgba(65, 66, 76, 0.6);
+    margin: 30px 200px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center; 
+    margin: 0px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.charmander_foto {
+    padding: 30px 0px;
+}
+ 
+.evolution_2,
+.evolution_3, 
+.mega_evolution_1, 
+.mega_evolution_2 {
+    overflow: auto;
+}
+
+.evolution img {
+    width: 250px;
+    padding: 20px 40px;
+    float: left;
+}
+
+.mega_evolution_1 img, 
+.mega_evolution_2 img {
+    float: right;
+}
+
+.type p, 
+.weakness p {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: #292929;
+    padding: 20px;
+}
+
+.footer img {
+    width: 200px;
+}
